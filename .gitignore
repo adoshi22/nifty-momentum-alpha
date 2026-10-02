@@ -1,0 +1,11 @@
+(
+echo __pycache__/
+echo *.pyc
+echo .venv/
+echo env/
+echo data/
+echo market_data/
+echo *.parquet
+echo *.csv
+echo .vscode/
+) > .gitignore
